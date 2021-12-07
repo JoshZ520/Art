@@ -7,7 +7,6 @@
     margin: auto;
     flex-flow: column wrap;
     height: 160vh;
-
 }
 .main-grid > section {
     width: 300px;
@@ -15,17 +14,24 @@
 
 header {
     align-items: center;
-    margin: 2em auto;
+    margin-top: -50px auto;
+    background-color: #01172F;
+    height: 150px;
+    width: 100%;
 }
+body {
+    background-color: #B7C0EE;
+}
+
 nav  {
     display: flex;
     justify-content: space-around;
     z-index: 1;
 }
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 50px;
     font-size: 1.3em;
 }
 
