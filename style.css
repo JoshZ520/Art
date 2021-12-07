@@ -58,3 +58,11 @@ nav a {
     font-size: 2em;
 }
 
+footer {
+    background-color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
