@@ -81,7 +81,18 @@ nav a {
     padding-top: 1em;
 }
 
+main h1 {
+    text-align: center;
+}
 
+.main-msg {
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 footer {
     background-color: #FF47AC;
