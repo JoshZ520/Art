@@ -64,7 +64,6 @@ nav a {
 }
 
 .content-text-box {
-    display: flexbox;
     border: 10px solid #01172F;
     border-radius: 25px;
     width: 80%;
