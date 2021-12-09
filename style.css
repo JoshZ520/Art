@@ -91,7 +91,34 @@ main h1 {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
+    max-width: 960px;
+    margin: auto;
+    flex-flow: column wrap;
+    height: 160vh;
+}
+.gallery-grid > section {
+    max-width: 300px;
+}
+
+.gallery-grid h3 {
+    margin-top: 35px;
+}
+
+.flower-img {
+    margin-left: 100px;
+}
+
+.robot-img {
+    margin-left: 100px;
+}
+
+.flower-msg {
+    margin-left: 100px;
+}
+
+.robot-msg {
+    margin-left: 100px;
 }
 
 footer {
